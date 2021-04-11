@@ -17,3 +17,7 @@ var f3 = results[2];
 console.log(f1());
 console.log(f2());
 console.log(f3());
+
+var x = parseFloat("123");
+var t = typeof x === "number";
+console.log(t);
